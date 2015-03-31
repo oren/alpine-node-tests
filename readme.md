@@ -1,4 +1,4 @@
-# Test suite for io.js in Docker based on Alpine Linux
+# Run io.js tests on Docker based on Alpine Linux
 
 ## Prerequisites
 
