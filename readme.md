@@ -7,6 +7,7 @@
 
 ## Build and Run
 
+    git clone git@github.com:iojs/io.js.git
     docker-compose build
     docker-compose run web
 
