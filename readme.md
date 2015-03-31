@@ -7,7 +7,9 @@
 
 ## Build and Run
 
-    git clone git@github.com:iojs/io.js.git
+    wget https://iojs.org/dist/v1.6.2/iojs-v1.6.2.tar.xz
+    xz -cd iojs-v1.6.2.tar.xz | tar -xvf -
+    cd iojs-v1.6.2
     docker-compose build
     docker-compose run web sh
     cd /tmp/io.js
