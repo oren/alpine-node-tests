@@ -5,7 +5,7 @@
 * [Docker](https://docs.docker.com/installation)
 * [Compose](https://docs.docker.com/compose/install)
 
-## Build and Run
+## Build io.js and run tests
 
     wget https://iojs.org/dist/v1.6.2/iojs-v1.6.2.tar.xz
     xz -cd iojs-v1.6.2.tar.xz | tar -xvf -
@@ -16,8 +16,3 @@
     ./configure --prefix=/usr --shared-openssl --shared-zlib
     make
     make test
-
-## Build and run without Compose
-
-    docker build -t alpine-nodejs .
-    docker run -v $(pwd):/tmp alpine-nodejs
