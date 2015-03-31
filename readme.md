@@ -12,8 +12,8 @@
     cd iojs-v1.6.2
     docker-compose build
     docker-compose run web sh
-    cd /tmp/io.js
-    ./configure --prefix=/usr  --shared-openssl --shared-zlib
+    cd /tmp/iojs-v1.6.2
+    ./configure --prefix=/usr --shared-openssl --shared-zlib
     make
     make test
 
