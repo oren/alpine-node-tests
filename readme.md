@@ -15,3 +15,8 @@
     ./configure --prefix=/usr --shared-openssl --shared-zlib
     make
     make test
+
+## Misc
+
+* `curl` is needed for the tests
+* `procps` is needed due to this error: AssertionError: { [Error: Command failed: /bin/sh -c ps -p 14517 -o args= ps: unrecognized option: p
