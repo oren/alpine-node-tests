@@ -12,7 +12,7 @@
     docker-compose build --no-cache
     docker-compose run web sh
     cd /tmp/iojs-v1.6.3
-    ./configure --prefix=/usr --shared-openssl --shared-zlib
+    ./configure
     make
     make test
 
