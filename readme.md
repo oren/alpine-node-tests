@@ -7,6 +7,8 @@
 
 ## Build io.js and run tests
 
+    git@github.com:oren/test-iojs-docker-alpine.git
+    cd test-iojs-docker-alpine.git
     wget https://iojs.org/dist/v1.6.3/iojs-v1.6.3.tar.xz
     xz -cd iojs-v1.6.3.tar.xz | tar -xvf -
     docker-compose build --no-cache
